@@ -4,6 +4,7 @@ def starts_with_a_vowel?(word)
     return false
   else
     return true
+  end
   #!(word.scan(/^[aeiou]/) == nil) || !(word.match(/^[aeiou]/) == nil)
 end
 
